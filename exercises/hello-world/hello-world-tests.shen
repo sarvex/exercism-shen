@@ -3,3 +3,5 @@
 
 (report "Say Hi!"
   (hello) "Hello, World!")
+
+(reset)
