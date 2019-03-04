@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+shen -l ../test-harness/README.shen -l hello-world-tests.shen
