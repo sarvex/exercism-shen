@@ -1,8 +1,8 @@
 (report "hello-world.shen exists"
   (load "hello-world.shen") loaded)
 
+(tc +)
 (report "hello-world.shen typechecks"
-  (tc +) true
   (load "hello-world.shen") loaded)
 
 (report "Say Hi!"
