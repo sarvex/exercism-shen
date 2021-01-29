@@ -1,19 +1,37 @@
 {
   "track_id": "shen",
   "language": "Shen",
+  "slug": "shen",
   "active": false,
+  "status": {
+    "concept_exercises": false,
+    "test_runner": false,
+    "representer": false,
+    "analyzer": false
+  },
   "blurb": "",
+  "version": 3,
+  "online_editor": {
+    "indent_style": "space",
+    "indent_size": 4
+  },
   "ignore_pattern": "[Ee]xample",
   "solution_pattern": "[Ee]xample",
   "test_pattern": "[Tt]est",
-  "exercises": [
-    {
-      "slug": "hello-world",
-      "uuid": "807ee06d-2e12-41bd-be89-a5f69055733f",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 0,
-      "topics": null
-    }
-  ]
+  "exercises": {
+    "concept": [],
+    "practice": [
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "807ee06d-2e12-41bd-be89-a5f69055733f",
+        "prerequisites": [],
+        "difficulty": 0,
+        "topics": null
+      }
+    ]
+  },
+  "concepts": [],
+  "key_features": [],
+  "tags": []
 }
