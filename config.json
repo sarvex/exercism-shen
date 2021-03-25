@@ -18,6 +18,20 @@
   "ignore_pattern": "[Ee]xample",
   "solution_pattern": "[Ee]xample",
   "test_pattern": "[Tt]est",
+  "files": {
+    "solution": [
+      "%{kebab_slug}.shen"
+    ],
+    "test": [
+      "%{kebab_slug}-tests.shen"
+    ],
+    "example": [
+      ".meta/example.shen"
+    ],
+    "exemplar": [
+      ".meta/exemplar.shen"
+    ]
+  },
   "exercises": {
     "concept": [],
     "practice": [
